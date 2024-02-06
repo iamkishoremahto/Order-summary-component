@@ -7,11 +7,11 @@ function App() {
 
   return (
     <>
-     <div className="w-screen min-h-screen p-[25px] bg-Paleblue md:bg-[url('public/images/pattern-background-desktop.svg')] bg-no-repeat bg-contain bg-[url('public/images/pattern-background-mobile.svg')] md:bg-no-repeat md:bg-contain flex items-center justify-center">
+     <div className="w-screen min-h-screen p-[25px] bg-Paleblue md:bg-bgDesktop bg-no-repeat bg-contain bg-bgMobile md:bg-no-repeat md:bg-contain flex items-center justify-center">
 
       <div className='flex overflow-hidden  items-center justify-start flex-col w-[360px] h-[650px] rounded-[20px] bg-white'>
 
-        <div className="imageSection  min-h-[180px]  min-w-full bg-[url('public/images/illustration-hero.svg')] bg-no-repeat bg-contain">
+        <div className="imageSection  min-h-[180px]  min-w-full bg-orderTopBg bg-no-repeat bg-contain">
 
         </div>
         <div className="orderContent flex flex-col gap-8 p-10  min-h-full">

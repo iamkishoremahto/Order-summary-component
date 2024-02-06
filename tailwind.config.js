@@ -22,7 +22,9 @@ export default {
     },
     extend: {
       backgroundImage:{
-          'orderTopBg':"url('public/images/illustration-hero.svg)"
+          'orderTopBg':"url('public/images/illustration-hero.svg')",
+          'bgDesktop': "url('public/images/pattern-background-desktop.svg')",
+          'bgMobile': "url('public/images/pattern-background-mobile.svg')"
       },
       boxShadow: {
         '4xl': [
